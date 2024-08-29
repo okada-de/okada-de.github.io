@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+.nav{
+    width: 85%;
+    overflow: auto;
+    margin: 1em auto;
+}
+
+.nav h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: auto;
+    width: 50%;
+    float: left;
+}
+
+.nav h1 a{
+    text-decoration: none;
+    color: burlywood;
+
+}
+
+.nav ul{
+    float: left;
+    margin-top: 1em;
+    text-align: right;
+    width: 50%;
+   
+}
+
+.nav ul li{
+    display: inline-block;
+   
+  
+}
+
+.nav ul li a {
+    text-decoration: none;
+    padding-left: 2em;
+   font-weight: 700;
+    color: black;
+}
+
+/* banner area */
+
+.banner{
+    background-image: url(../images/banner-bg.jpg);
+    background-repeat: none;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+   height: 670px;
+}
+
+.banner .coffee{
+    position: absolute;
+   top: 35%;
+   left: 7.5%;
+}
+
+
+
+.banner h3 {
+    text-transform: uppercase;
+    color: antiquewhite;
+    top: 70%;
+}
+
+
+.banner p{
+    color: white;
+    font-size: large;
+}
+
+.banner a{
+    text-decoration: none;
+    font-size: 2em;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.444);
+    padding: 1em;
+    display: inline-block;
+    text-align: center;
+
+
+}
